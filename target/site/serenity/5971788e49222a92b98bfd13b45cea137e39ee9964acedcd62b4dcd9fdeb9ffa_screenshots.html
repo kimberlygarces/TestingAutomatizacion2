@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa.html">User register </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-04-2022 17:44</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user I want to automate in screamplay for technical test in choucair
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">User register
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given The user wants to register a new user on the platform<br>When FThe user enters the registration data<br><table class='embedded'><thead><th>name</th><th>last</th><th>address</th><th>email</th><th>phone</th><th>languages</th><th>country</th><th>year</th><th>mont</th><th>day</th><th>password</th><th>password_confim</th></thead><tbody><tr><td>&lt;name&gt;</td><td>&lt;last&gt;</td><td>&lt;address&gt;</td><td>&lt;email&gt;</td><td>&lt;phone&gt;</td><td>&lt;languages&gt;</td><td>&lt;country&gt;</td><td>&lt;year&gt;</td><td>&lt;mont&gt;</td><td>&lt;day&gt;</td><td>&lt;password&gt;</td><td>&lt;password_confim&gt;</td></tr></tbody></table><br>Then End user registration<br><table class='embedded'><tbody><tr><td>str_respuestafinal</td></tr><tr><td>&lt;str_respuestafinal&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: no such element: Unable to locate element: {'method':'xpath','selector':'/html/body/section/div[1]/div/div[2]/h4[1]'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.proyectoBase.stepdefinitions.ChoucairStepDeficitions.endUserRegistration(ChoucairStepDeficitions.java:42)<br />✽.End user registration(src/test/resources/features/academyChoucair.feature:13)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7d2a1c2bbf01b86e4ce972f3a18392b3aa812c0ed02b8cd41fc6f4c4af0e98c1.png" title=" Example: {name=kim, last=garces, address=cra4D#96-12, email=kim@mail, phone=1234567891, languages=Bulgarian, country=Colombia, year=1994, mont=December, day=5, password=1234, password_confim=1234, str_respuestafinal=- Double Click on Edit Icon to EDIT the Table Row.}" width="1366"/>
+                <img src="7d2a1c2bbf01b86e4ce972f3a18392b3aa812c0ed02b8cd41fc6f4c4af0e98c1.png" title=" Given The user wants to register a new user on the platform" width="1366"/>
+                <img src="7d2a1c2bbf01b86e4ce972f3a18392b3aa812c0ed02b8cd41fc6f4c4af0e98c1.png" title=" Kim open up" width="1366"/>
+                <img src="7d2a1c2bbf01b86e4ce972f3a18392b3aa812c0ed02b8cd41fc6f4c4af0e98c1.png" title=" Kim opens the Page initial" width="1366"/>
+                <img src="7d2a1c2bbf01b86e4ce972f3a18392b3aa812c0ed02b8cd41fc6f4c4af0e98c1.png" title=" Kim open up (completed)" width="1366"/>
+                <img src="bcce8dedb249420bc3647062b9e7c200742b79c8f53206264d202f81555a703d.png" title=" Kim open register" width="1366"/>
+                <img src="bcce8dedb249420bc3647062b9e7c200742b79c8f53206264d202f81555a703d.png" title=" Kim clicks on Button register new" width="1366"/>
+                <img src="bcce8dedb249420bc3647062b9e7c200742b79c8f53206264d202f81555a703d.png" title=" Kim open register (completed)" width="1366"/>
+                <img src="bcce8dedb249420bc3647062b9e7c200742b79c8f53206264d202f81555a703d.png" title=" Given The user wants to register a new user on the platform (completed)" width="1366"/>
+                <img src="c43b863d6005fb1f56df951b9ba369bd3047acbc6cd18944b23e96130a9e1cef.png" title=" When FThe user enters the registration data
+| name | last | address | email | phone | languages | country | year | mont | day | password | password_confim |
+| kim | garces | cra4D#96-12 | kim@mail | 1234567891 | Bulgarian | Colombia | 1994 | December | 5 | 1234 | 1234 |" width="1366"/>
+                <img src="c43b863d6005fb1f56df951b9ba369bd3047acbc6cd18944b23e96130a9e1cef.png" title=" Kim registration date" width="1366"/>
+                <img src="c43b863d6005fb1f56df951b9ba369bd3047acbc6cd18944b23e96130a9e1cef.png" title=" Kim enters 'kim' into name user" width="1366"/>
+                <img src="3e92bcb54e1629c0691ec48230b0ae5bfccfe63425305c86268fd7190839cba7.png" title=" Kim enters 'garces' into name user" width="1366"/>
+                <img src="15470b5851cadb08b60a2eaf071993435791850b5ffb913d6d5ef7cdb49b1d26.png" title=" Kim enters 'cra4D#96-12' into name user" width="1366"/>
+                <img src="70ab7429996661bcd401ca8127444641cbe8fb09cc03779897404daaaca94fdd.png" title=" Kim enters 'kim@mail' into name user" width="1366"/>
+                <img src="674e1e59d1c9c8c1dde353f5555ee11578720f2585dbe57c4ffb4b858dc65fdd.png" title=" Kim enters '1234567891' into name user" width="1366"/>
+                <img src="21da8c6234b9c95d8f203a31d1a7c2f4328adbbfc9f8b097b47ba7cce72c06b0.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="def5b4b3246184cbbf87c8f75e9c848d9df20f80894ceb0121fe36e660d2aa99.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="93d8e70255c2a098f249e83df8e23208c59c533dd948d4cbaf6f2c2515bf501d.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="b609420883b52b2e3ddccb26652e2239d80906c85a096bb4271527490575777b.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="c290be61d59bc261ea495d554b2485916644a8c2b0140c867f642308bad11790.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="a8b491cef72eaebb136d639212111ea6515cfdaffde7192b951f3be199cb62a8.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="a8b491cef72eaebb136d639212111ea6515cfdaffde7192b951f3be199cb62a8.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="be4f84509525a9b2d9b7d5b2bbf0a70fa8463f94b58c3366ed0a07bb03ef648f.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="e0a9a35a054d83137e438a635fb1b92ca528dc9255dfab469a96b26db5c1ebd9.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="7da8c75aac7cfefdd6c91df8b8a1f6c71e1232c2f9169ab76da35c955bfe83a6.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="7da8c75aac7cfefdd6c91df8b8a1f6c71e1232c2f9169ab76da35c955bfe83a6.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="02dd80e7086a5f1aed945b2e38e0c20e00433d2fc697c9e8f644e7e5f5739889.png" title=" Kim enters '1234' into name user" width="1366"/>
+                <img src="e9a8aa16eb9e93c8a3781d4544b7904deab363ca19b73d3feec7f511bd16264e.png" title=" Kim enters '1234' into name user" width="1366"/>
+                <img src="284ac1b3be96ca65df598badc9007873867e02882ed5bee106af935608773201.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="b62cebe1d8bf7c0600b1856405d8586b8d9301213a546df61622a679f7a0c19e.png" title=" Kim clicks on name user" width="1366"/>
+                <img src="b62cebe1d8bf7c0600b1856405d8586b8d9301213a546df61622a679f7a0c19e.png" title=" Kim registration date (completed)" width="1366"/>
+                <img src="b62cebe1d8bf7c0600b1856405d8586b8d9301213a546df61622a679f7a0c19e.png" title=" When FThe user enters the registration data
+| name | last | address | email | phone | languages | country | year | mont | day | password | password_confim |
+| kim | garces | cra4D#96-12 | kim@mail | 1234567891 | Bulgarian | Colombia | 1994 | December | 5 | 1234 | 1234 | (completed): <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
